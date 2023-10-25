@@ -16,18 +16,18 @@ public class ProducerClient {
 
     // server properties
     Properties properties = new Properties();
-    properties.setProperty("bootstrap.servers", "127.0.0.1:9092");
+    properties.setProperty(Constants.SERVER_NAME, Constants.URL_PORT);
 
     // serializer key and value properties
-    properties.setProperty("key.serializer", StringSerializer.class.getName());
-    properties.setProperty("value.serializer", StringSerializer.class.getName());
+    properties.setProperty(Constants.KEY_SERIALIZER, StringSerializer.class.getName());
+    properties.setProperty(Constants.VALUE_SERIALIZER, StringSerializer.class.getName());
 
     // Create a producer
     KafkaProducer<String, String> producer = new KafkaProducer<>(properties);
 
     // Record to produce
     ProducerRecord<String, String> producerRecord =
-        new ProducerRecord<>("first_topic", "name", "Shubhendu");
+        new ProducerRecord<>(Constants.KAFKA_TOPIC, "programming", "Java | Python | Node.Js");
 
     // send data
     producer.send(producerRecord);

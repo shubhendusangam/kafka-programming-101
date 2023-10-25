@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed10ce00-7b13-4896-ac1e-40657e41c2db" name="Changes" comment="kafka Producer">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/google-java-format.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-basics/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-basics/src/main/java/com/practice/kafkaprogramming/ProducerClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="ed10ce00-7b13-4896-ac1e-40657e41c2db" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/kafka-basics/src/main/java/com/practice/kafkaprogramming/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-basics/src/main/java/com/practice/kafkaprogramming/ProducerClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-basics/src/main/java/com/practice/kafkaprogramming/ProducerClient.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +28,21 @@
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "riv-shubhendu"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="c245a297-812a-4c7b-a992-ceafff01786b" />
+        <option name="url" value="https://github.com/shubhendusangam/kafka-programming-101" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProjectId" id="2XGSKHUVG3a2cJ7G5YPNamXKCTk" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -82,7 +91,27 @@
       <option name="presentableId" value="Default" />
       <updated>1698253857677</updated>
     </task>
+    <task id="LOCAL-00001" summary="kafka Producer">
+      <option name="closed" value="true" />
+      <created>1698257917192</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1698257917192</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="kafka Producer" />
