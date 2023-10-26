@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed10ce00-7b13-4896-ac1e-40657e41c2db" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/kafka-basics/src/main/java/com/practice/kafkaprogramming/Constants.java" afterDir="false" />
+    <list default="true" id="ed10ce00-7b13-4896-ac1e-40657e41c2db" name="Changes" comment="Constants added">
+      <change afterPath="$PROJECT_DIR$/kafka-basics/src/main/java/com/practice/kafkaprogramming/ProducerClientWithCallBack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka-basics/src/main/java/com/practice/kafkaprogramming/ProducerClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-basics/src/main/java/com/practice/kafkaprogramming/ProducerClient.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,12 +31,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "riv-shubhendu"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;riv-shubhendu&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -44,6 +45,10 @@
       </UrlAndAccount>
     </option>
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 4
+}]]></component>
   <component name="ProjectId" id="2XGSKHUVG3a2cJ7G5YPNamXKCTk" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -56,13 +61,19 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "jdk.selected.JAVA_MODULE": "17",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
+    "last_opened_file_path": "/home/shubhendu/Kafka_trainning/kafka-programming-101/kafka-basics/pom.xml",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.11399444",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "reference.settings.project.maven.importing"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.practice.kafkaprogramming" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ProducerClientWithCallBack">
     <configuration name="ProducerClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.practice.kafkaprogramming.ProducerClient" />
       <module name="kafka-basics" />
@@ -76,8 +87,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProducerClientWithCallBack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.practice.kafkaprogramming.ProducerClientWithCallBack" />
+      <module name="kafka-basics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.practice.kafkaprogramming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProducerClientWithCallBack" />
         <item itemvalue="Application.ProducerClient" />
       </list>
     </recent_temporary>
@@ -99,7 +124,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698257917192</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Constants added">
+      <option name="closed" value="true" />
+      <created>1698259256844</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1698259256844</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -115,6 +148,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="kafka Producer" />
-    <option name="LAST_COMMIT_MESSAGE" value="kafka Producer" />
+    <MESSAGE value="Constants added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Constants added" />
   </component>
 </project>
