@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed10ce00-7b13-4896-ac1e-40657e41c2db" name="Changes" comment="Constants added">
-      <change afterPath="$PROJECT_DIR$/kafka-basics/src/main/java/com/practice/kafkaprogramming/ProducerClientWithCallBack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="ed10ce00-7b13-4896-ac1e-40657e41c2db" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/kafka-basics/src/main/java/com/practice/kafkaprogramming/ProducerClientWithSameKey.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-basics/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-basics/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-basics/src/main/java/com/practice/kafkaprogramming/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-basics/src/main/java/com/practice/kafkaprogramming/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-basics/src/main/java/com/practice/kafkaprogramming/ProducerClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-basics/src/main/java/com/practice/kafkaprogramming/ProducerClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-basics/src/main/java/com/practice/kafkaprogramming/ProducerClientWithCallBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-basics/src/main/java/com/practice/kafkaprogramming/ProducerClientWithCallBack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +75,7 @@
       <recent name="com.practice.kafkaprogramming" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ProducerClientWithCallBack">
+  <component name="RunManager" selected="Application.ProducerClientWithSameKey">
     <configuration name="ProducerClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.practice.kafkaprogramming.ProducerClient" />
       <module name="kafka-basics" />
@@ -100,8 +102,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProducerClientWithSameKey" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.practice.kafkaprogramming.ProducerClientWithSameKey" />
+      <module name="kafka-basics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.practice.kafkaprogramming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProducerClientWithSameKey" />
         <item itemvalue="Application.ProducerClientWithCallBack" />
         <item itemvalue="Application.ProducerClient" />
       </list>
@@ -132,7 +148,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698259256844</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="producer with callback">
+      <option name="closed" value="true" />
+      <created>1698296150177</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1698296150177</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -149,6 +173,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="kafka Producer" />
     <MESSAGE value="Constants added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Constants added" />
+    <MESSAGE value="producer with callback" />
+    <option name="LAST_COMMIT_MESSAGE" value="producer with callback" />
   </component>
 </project>

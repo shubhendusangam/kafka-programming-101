@@ -10,6 +10,7 @@ import org.slf4j.LoggerFactory;
 
 public class ProducerClient {
   private static final Logger LOGGER = LoggerFactory.getLogger(ProducerClient.class);
+
   public static void main(String[] args) {
 
     LOGGER.info("Producer Started.....");

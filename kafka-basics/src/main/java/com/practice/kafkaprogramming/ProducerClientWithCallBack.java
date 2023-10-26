@@ -12,6 +12,7 @@ import org.slf4j.LoggerFactory;
 
 public class ProducerClientWithCallBack {
   private static final Logger LOGGER = LoggerFactory.getLogger(ProducerClientWithCallBack.class);
+
   public static void main(String[] args) {
 
     LOGGER.info("Producer Call back Started.....");
@@ -42,13 +43,19 @@ public class ProducerClientWithCallBack {
         new ProducerRecord<>(Constants.KAFKA_TOPIC, "programming", "Java | Python | Node.Js");
 
     // send data
-    producer.send(producerRecord,
-          (recordMetadata, e) -> {
-            if (e == null) {
-              LOGGER.info(MessageFormat.format("record meta data :\n Topic : {0}\n Partition : {1}\n Offset : {2}\n Time Stamp: {3}",
-                    recordMetadata.topic(), recordMetadata.partition(), recordMetadata.offset(), LocalDateTime.now()));
-            }
-          });
+    producer.send(
+        producerRecord,
+        (recordMetadata, e) -> {
+          if (e == null) {
+            LOGGER.info(
+                MessageFormat.format(
+                    "record meta data :\n Topic : {0}\n Partition : {1}\n Offset : {2}\n Time Stamp: {3}",
+                    recordMetadata.topic(),
+                    recordMetadata.partition(),
+                    recordMetadata.offset(),
+                    LocalDateTime.now()));
+          }
+        });
     return producer;
   }
 }
