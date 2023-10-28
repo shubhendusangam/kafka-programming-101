@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed10ce00-7b13-4896-ac1e-40657e41c2db" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/kafka-basics/src/main/java/com/practice/kafkaprogramming/ProducerClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-basics/src/main/java/com/practice/kafkaprogramming/ProducerClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka-basics/src/main/java/com/practice/kafkaprogramming/ProducerClientWithSameKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-basics/src/main/java/com/practice/kafkaprogramming/ProducerClientWithSameKey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-basics/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-basics/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +71,13 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.practice.kafkaprogramming" />
     </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="MavenRunConfiguration" />
+      </set>
+    </option>
   </component>
   <component name="RunManager" selected="Application.ConsumerClient">
     <configuration name="ConsumerClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -182,7 +190,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698494865158</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Producer client updated">
+      <option name="closed" value="true" />
+      <created>1698495117863</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1698495117863</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -202,6 +218,7 @@
     <MESSAGE value="producer with callback" />
     <MESSAGE value="ProducerClient With Same Key" />
     <MESSAGE value="consumer client added" />
-    <option name="LAST_COMMIT_MESSAGE" value="consumer client added" />
+    <MESSAGE value="Producer client updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Producer client updated" />
   </component>
 </project>
