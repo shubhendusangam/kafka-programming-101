@@ -9,9 +9,9 @@
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>kafka-basics</artifactId>
+    <artifactId>Utility</artifactId>
     <version>1.0.0-SNAPSHOT</version>
-    <name>kafka-basics</name>
+    <name>Utility</name>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -37,19 +37,6 @@
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-simple</artifactId>
         </dependency>
-
-        <!-- random name generator -->
-        <dependency>
-            <groupId>com.github.javafaker</groupId>
-            <artifactId>javafaker</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>${project.groupId}</groupId>
-            <artifactId>Utility</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-
     </dependencies>
 
 </project>
