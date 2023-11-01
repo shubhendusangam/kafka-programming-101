@@ -11,4 +11,10 @@ ConsumerClient - Consumes the messages from configured topic.
 
 # Kafka wikimedia producer
 
-Get an view of how to read data from real time stream and use a producer client to send those data to local kafka topics.
+Get a view of how to read data from real time stream and by using a producer client,
+send those data to local kafka topics.
+
+# Kafka OpenSearch consumer
+
+Get a view of how to consume data from a specific topic and by using a consumer client,
+send those data to open search-configured index.
